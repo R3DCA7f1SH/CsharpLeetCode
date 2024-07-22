@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33927.249
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLeetCode.Main", "CsharpLeetCode.Main\CsharpLeetCode.Main.csproj", "{94CE9856-7F3E-4D0B-AE4B-4D5A5D88BAA1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpLeetCode.Tests", "CsharpLeetCode.Tests\CsharpLeetCode.Tests.csproj", "{EDA54384-6453-44CF-9398-93D53EE8CFAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{94CE9856-7F3E-4D0B-AE4B-4D5A5D88BAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94CE9856-7F3E-4D0B-AE4B-4D5A5D88BAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94CE9856-7F3E-4D0B-AE4B-4D5A5D88BAA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA54384-6453-44CF-9398-93D53EE8CFAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA54384-6453-44CF-9398-93D53EE8CFAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA54384-6453-44CF-9398-93D53EE8CFAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA54384-6453-44CF-9398-93D53EE8CFAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

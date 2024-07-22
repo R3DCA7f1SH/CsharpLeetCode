@@ -22,4 +22,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\CsharpLeetCode.Main\CsharpLeetCode.Main.csproj" />
+  </ItemGroup>
+
 </Project>
