@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CsharpLeetCode.Main.Medium
 {
+    // Задача: https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers
+    // Идея для решения: https://www.geeksforgeeks.org/minimum-deci-binary-numbers-required-to-obtain-a-given-sum-s/
     public class PartitionIntoMinNumOfDeciBinaryNum
     {
         public int MinPartitions(string n)
