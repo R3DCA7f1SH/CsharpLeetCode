@@ -8,8 +8,10 @@
         private static Dictionary<int,int> GetSumMap(TreeNode node, Dictionary<int, int> accum)
         {
             if (node == null) return accum;
-            var newDict = new Dictionary<int, int>(accum);
-            newDict.Add(node.val,node.val);
+            var newDict = new Dictionary<int, int>(accum)
+            {
+                { node.val, node.val }
+            };
             foreach(var item in newDict)
             {
                 var currentKey = item.Key;
